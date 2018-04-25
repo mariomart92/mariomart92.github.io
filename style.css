@@ -25,6 +25,15 @@ nav {
     background: #000;
 }
 
+.fas .fa-navicon {
+    color: #eaeaea !important;
+}
+
+button:focus {
+    border-color: #eaeaea !important;
+    box-shadow: inset 0 1px 1px rgb(234, 234, 234), 0 0 8px rgb(234, 234, 234) !important;
+}
+
 ul li a {
     text-decoration: none;
     color: #eaeaea;
