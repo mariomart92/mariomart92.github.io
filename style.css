@@ -22,14 +22,24 @@ body {
 
 nav {
     padding: 1em 0;
-    background: #000;
+    background: #000 !important;
 }
 
-.fas .fa-navicon {
+nav button {
+    background: #000 !important;
+    color: #eaeaea;
+}
+
+span i {
+    padding-top: 20%;
+}
+
+nav button:hover {
+    background: #ad974f !important;
     color: #eaeaea !important;
 }
 
-button:focus {
+nav button:focus {
     border-color: #eaeaea !important;
     box-shadow: inset 0 1px 1px rgb(234, 234, 234), 0 0 8px rgb(234, 234, 234) !important;
 }
@@ -46,7 +56,7 @@ ul li a {
 ul li a:hover {
     text-decoration: none;
     text-overflow: none;
-    border: 1px solid #eaeaea;
+    border: 1px solid #eaeaea !important;
     border-radius: 5px;
     background: #ad974f;
     color: #eaeaea !important;
@@ -156,13 +166,13 @@ textarea {
 
 /* Form: Button Styles */
 
-button {
+form button {
     color: #eaeaea !important;
     background: #000 !important;
     border: 1px solid #ad974f !important;
 }
 
-button:hover {
+form button:hover {
     color: #eaeaea !important;
     background: #ad974f !important;
     text-align: center !important;
