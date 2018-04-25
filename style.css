@@ -113,6 +113,10 @@ form {
     width: 100%;
 }
 
+h4 {
+    color: #eaeaea !important;
+}
+
 input {
     background: #000 !important;
     color: #eaeaea !important;
